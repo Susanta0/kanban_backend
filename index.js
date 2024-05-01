@@ -21,7 +21,7 @@ app.get("/", (req, res)=>{
 app.listen(PORT, async()=>{
     try {
         await connectDb()
-        console.log(`serber is running on ${PORT} also connected database`)
+        console.log(`server is running on ${PORT} also connected database`)
     } catch (error) {
         console.log(error)
     }
